@@ -1,0 +1,40 @@
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+#banner {
+    background-image: url("web_image1.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 400px;
+    width: 100%;
+}
+
+#banner .intro h1 {
+    font-family: Calibri;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#banner .intro p {
+    font-family: Calibri;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
