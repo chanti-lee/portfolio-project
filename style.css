@@ -1,4 +1,18 @@
 
+body {
+    font-family: Calibri;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
 .navigation ul {
     margin: 0;
     padding: 0;
@@ -37,4 +51,27 @@
     top: 50px;
     width: 400px;
     margin: 0 auto;
+}
+
+#education {
+    background-image: url("web_image1.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 400px;
+    width: 100%;
+}
+
+#projects {
+    background-image: url("web_image1.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 400px;
+    width: 100%;
+}
+#contact {
+    background-image: url("web_image1.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 400px;
+    width: 100%;
 }
