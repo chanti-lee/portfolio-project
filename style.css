@@ -1,15 +1,24 @@
 
 body {
     font-family: Calibri;
-    color: white;
 }
 
 h1 {
+    position: relative;
+    color: white;
     text-align: center;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 p {
+    position: relative;
+    color: white;
     text-align: center;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 
@@ -34,7 +43,6 @@ p {
 }
 
 #banner .intro h1 {
-    font-family: Calibri;
     position: relative;
     color: white;
     text-align: center;
@@ -44,7 +52,6 @@ p {
 }
 
 #banner .intro p {
-    font-family: Calibri;
     position: relative;
     color: white;
     text-align: center;
