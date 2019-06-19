@@ -32,6 +32,20 @@ p {
     font-weight: 100;
     letter-spacing: 2px;
     padding: 20px;
+    display: inline;
+}
+
+li a:hover {
+    background-color: aliceblue;
+}
+
+li a:link {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+    display: inline;
+    text-decoration: none;
+
 }
 
 #banner {
@@ -61,7 +75,7 @@ p {
 }
 
 #education {
-    background-image: url("web_image1.jpg");
+    background-color: #e787ff;
     background-size: cover;
     background-position: bottom center;
     height: 400px;
@@ -76,7 +90,7 @@ p {
     width: 100%;
 }
 #contact {
-    background-image: url("web_image1.jpg");
+    background-color: #e787ff;
     background-size: cover;
     background-position: bottom center;
     height: 400px;
