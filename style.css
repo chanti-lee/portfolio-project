@@ -8,7 +8,7 @@ h1 {
     color: white;
     text-align: center;
     top: 50px;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     font-size: 35px;
     font-weight: bold;
@@ -19,7 +19,7 @@ p {
     color: white;
     text-align: center;
     top: 50px;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     font-size: 15px;
     font-weight: lighter;
@@ -54,7 +54,7 @@ li a:link {
 
 /* Show in default resolution screen*/
 #container {
-    width: 960px;
+    max-width: 960px;
     position: relative;
     margin:0 auto;
     line-height: 1.4em;
@@ -78,7 +78,7 @@ li a:link {
     color: white;
     text-align: center;
     top: 50px;
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -87,32 +87,30 @@ li a:link {
     color: white;
     text-align: center;
     top: 50px;
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
 }
 
+.content h1 {
+    text-align: center;
+}
 
 #education {
     background-color: #e787ff;
-    background-size: cover;
-    background-position: bottom center;
     height: 400px;
     width: 100%;
+    text-align: center;
 
 }
 
 #projects {
     background-image: url("web_image1.jpg");
-    background-size: cover;
-    background-position: bottom center;
     height: 400px;
     width: 100%;
 }
 #contact {
     background-color: #e787ff;
-    background-size: cover;
-    background-position: bottom center;
-    height: 400px;
+    max-height: 400px;
     width: 100%;
 }
 
