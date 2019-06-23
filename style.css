@@ -138,8 +138,9 @@ a.button5:hover {
 }
 
 #education .content p {
+    width: 60%;
     text-align: left;
-    font-size: small;
+    justify-content: space-between;
 }
 
 #projects {
