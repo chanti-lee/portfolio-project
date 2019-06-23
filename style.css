@@ -93,7 +93,7 @@ a.button4{
     border-radius:2em;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family:'Calibri',sans-serif;
     font-weight:300;
     color:#FFFFFF;
     text-align:center;
@@ -112,14 +112,12 @@ a.button5{
     border-radius:2em;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
+    font-family:'Calibri',sans-serif;
+    font-weight:400;
     color:#FFFFFF;
     text-align:center;
     transition: all 0.2s;
-}
-a.button5:hover {
-    background-color: rgb(231, 6, 255);
+    font-size: 16px;
 }
 
 @media all and (max-width:30em){
@@ -138,7 +136,7 @@ a.button5:hover {
 }
 
 #education .content p {
-    width: 60%;
+    width: 90%;
     text-align: left;
     justify-content: space-between;
 }
@@ -167,6 +165,7 @@ input[type=text], select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    font-family: Calibri, sans-serif;
 }
 
 
