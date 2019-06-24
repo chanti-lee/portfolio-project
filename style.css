@@ -190,8 +190,10 @@ input[type=submit] {
     border: none;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover:active {
     background-color: #20ffb9;
+    padding: 12px 20px;
+
 }
 
 .container {
@@ -209,6 +211,7 @@ input[type=submit]:hover {
     text-align: center;
     margin: 0 auto;
     width: 40%;
+    border: none;
 
 }
 
