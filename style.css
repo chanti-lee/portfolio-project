@@ -134,7 +134,6 @@ a.button5:hover {
 
 #projects {
     background-color: #dba1cb;
-    height: 600px;
     width: 100%;
 }
 
@@ -147,20 +146,45 @@ a.button5:hover {
 
 .project-tile {
   height: 300px;
-  width: 200px;
+  width: 300px;
   margin: auto;
 }
 
 .project-img {
   height: 200px;
-  width: 200px;
+  width: 300px;
   background-color: white;
 }
 .project-txt {
   height: 100px;
-  width: 200px;
+  width: 300px;
   background-color: pink;
 }
+
+#tribute-page {
+    background-image: url("tribute-page.png");
+    background-size: 430px;
+    background-position: center;
+}
+
+#mapbox-api {
+    background-image: url("mapbox-api.png");
+    background-size: 430px;
+    background-position: center;
+}
+
+#fraction-api {
+    background-image: url("numbers_img.jpg");
+    background-size: 430px;
+    background-position: center;
+}
+
+#musketeers {
+    background-image: url("code_img.jpg");
+    background-size: 430px;
+    background-position: center;
+}
+
 
 #contact {
     background-color: #9fd8cc;
