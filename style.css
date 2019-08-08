@@ -154,7 +154,7 @@ a.button5:hover {
 .project-img {
   height: 200px;
   width: 200px;
-  background-color: grey;
+  background-color: white;
 }
 .project-txt {
   height: 100px;
@@ -228,14 +228,6 @@ input[type=submit]:hover:active {
     clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-}
-
 #footer {
     background-size: cover;
     background-position: center;
@@ -243,3 +235,43 @@ input[type=submit]:hover:active {
     width: 100%;
     background-color: #dba1cb;
 }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #projects {
+    background-color: #dba1cb;
+    height: 1350px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.project-tile {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.project-img {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+}
+.project-txt {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+}
+
+}
+
