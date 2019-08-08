@@ -134,9 +134,34 @@ a.button5:hover {
 
 #projects {
     background-color: #dba1cb;
-    height: 400px;
+    height: 600px;
     width: 100%;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 75px;
+}
+
+.project-tile {
+  height: 300px;
+  width: 200px;
+  margin: auto;
+}
+
+.project-img {
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+}
+.project-txt {
+  height: 100px;
+  width: 200px;
+  background-color: pink;
+}
+
 #contact {
     background-color: #9fd8cc;
     max-height: 400px;
@@ -168,12 +193,11 @@ input[type=submit] {
     cursor: pointer;
     margin: 0 auto;
     width: 40%;
-    background-color: #20ffb9;
-    border: none;
+    border-color: white;
 }
 
 input[type=submit]:hover:active {
-    background-color: #20ffb9;
+    background-color: #dba1cb;
     padding: 12px 20px;
 
 }
@@ -217,5 +241,5 @@ input[type=submit]:hover:active {
     background-position: center;
     height: 130px;
     width: 100%;
-    background-color: #9fd8cc;
+    background-color: #dba1cb;
 }
