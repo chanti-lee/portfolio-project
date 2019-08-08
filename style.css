@@ -133,7 +133,7 @@ a.button5:hover {
 }
 
 #projects {
-    height: 800px;
+    height: 900px;
     background-color: #dba1cb;
     width: 100%;
 }
@@ -148,9 +148,10 @@ a.button5:hover {
 }
 
 .project-tile {
-  height: 300px;
+  height: 400px;
   width: 300px;
   margin: auto;
+  padding: 0;
 }
 
 .project-img {
@@ -161,20 +162,23 @@ a.button5:hover {
 .project-txt {
   height: 100px;
   width: 300px;
+  margin: 0;
+  padding: 0;
 }
 
-.project-txt h4 {
+.project-txt #title {
     padding: 0;
     margin: 0;
     color: black;
-    font-size: 10px;
+    font-size: 20px;
+    color: white;
 }
 
 .project-txt p {
     padding: 0;
     margin: 0;
-    color: black;
-    font-size: 10px;
+    color: white;
+    font-size: 14px;
 }
 
 #tribute-page {
@@ -277,7 +281,7 @@ input[type=submit]:hover:active {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
@@ -290,6 +294,7 @@ input[type=submit]:hover:active {
 }
 
 .flex-container {
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -305,12 +310,10 @@ input[type=submit]:hover:active {
 .project-img {
   height: 200px;
   width: 300px;
-  background-color: white;
 }
 .project-txt {
   height: 100px;
   width: 300px;
-  background-color: pink;
 }
 
 }
