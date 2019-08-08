@@ -133,6 +133,7 @@ a.button5:hover {
 }
 
 #projects {
+    height: 800px;
     background-color: #dba1cb;
     width: 100%;
 }
@@ -142,6 +143,8 @@ a.button5:hover {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 75px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .project-tile {
@@ -158,7 +161,6 @@ a.button5:hover {
 .project-txt {
   height: 100px;
   width: 300px;
-  background-color: pink;
 }
 
 #tribute-page {
