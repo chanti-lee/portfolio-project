@@ -1,0 +1,142 @@
+body {
+    font-family:'Josefin Sans', sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+@media (min-height: 350px) {
+    #header {
+        max-width: 100%;
+        display: block;
+        height: auto;
+    }
+}
+
+#header-img {
+    float: left;
+    width: 25%;
+    max-height: 50px;
+    padding: 15px 0px;
+}
+
+ul {
+    position: fixed;
+    list-style-type: none;
+    background-color: pink;
+    margin: 0 auto;
+    top: 0 auto;
+    width: 100%;
+    max-height: 80px;
+}
+
+li a {
+    display: inline;
+    float: right;
+    padding-top: 30px;
+    padding-right: 80px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+
+}
+
+li a:link {
+    text-decoration: none;
+
+}
+
+li a:visited {
+    text-decoration: none;
+}
+
+li a:focus {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+li a:active {
+    text-decoration: none;
+}
+
+#about {
+    padding-top: 60px;
+}
+
+#about-us {
+    align: center;
+    text-align: center;
+    width: 80%;
+    padding-top: 40px;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#desc {
+    font-family: 'Josefin Sans', sans-serif;
+    align: center;
+    text-align: center;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin: auto;
+
+}
+
+#watch {
+    justify-content: center;
+    display: flex;
+}
+
+#video {
+    padding: 100px;
+    height: 315px;
+    width: 560px;
+
+}
+
+#shop {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+.flex-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#product img {
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#email-sign-up {
+    margin: 0 auto;
+    min-width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: plum;
+}
+
+#email {
+    width: 180px;
+}
